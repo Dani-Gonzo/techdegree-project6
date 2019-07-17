@@ -1,0 +1,58 @@
+{
+    "projects" : [
+        {
+            "id": 0,
+            "project_name": "Random Quote Generator",
+            "description": "Generates random quotes from an array, either after a set time interval or via the user clicking an on-screen button.",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "https://dani-gonzo.github.io/techdegree-project1/",
+            "github_link": "https://github.com/Dani-Gonzo/techdegree-project1",
+            "image_urls": ["/images/project1Landing.jpg", "/images/project1Addtl.jpg", "/images/project1Addtl2.jpg"]
+        },
+        {
+            "id": 1,
+            "project_name": "List Pagination and Filtering",
+            "description": "Displays 10 student records per page, dynamically generating the number of page links needed for the size of the list. Search bar generates student records as the user types, also dynamically generating page links as the number of matching records changes.",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "https://dani-gonzo.github.io/techdegree-project2/",
+            "github_link": "https://github.com/Dani-Gonzo/techdegree-project2",
+            "image_urls": ["/images/project2Landing.jpg", "/images/project2Addtl.jpg", "/images/project2Addtl2.jpg"]
+        },
+        {
+            "id": 2,
+            "project_name": "Interactive Form",
+            "description":"Practice in making a \"smart form\" that reacts to user input while maintaining Progressive Enhancement.",
+            "technologies": ["HTML", "CSS", "JavaScript", "JQuery"],
+            "live_link": "https://dani-gonzo.github.io/techdegree-project3/",
+            "github_link": "https://github.com/Dani-Gonzo/techdegree-project3",
+            "image_urls": ["/images/project3Landing.jpg", "/images/project3Addtl.jpg", "/images/project3Addtl2.jpg", "/images/project3Addtl3.jpg"]
+        },
+        {
+            "id": 3,
+            "project_name": "OOP Game Show App",
+            "description": "Practice using object-oriented JavaScript to make an interactive hangman game through the browser.",
+            "technologies": ["HTML", "CSS", "JavaScript", "JQuery"],
+            "live_link": "https://dani-gonzo.github.io/techdegree-project4/",
+            "github_link": "https://github.com/Dani-Gonzo/techdegree-project4",
+            "image_urls": ["/images/project4Landing.jpg", "/images/project4Addtl.jpg", "/images/project4Addtl2.jpg", "/images/project4Addtl3.jpg"]
+        },
+        {
+            "id": 4,
+            "project_name": "Public API Requests",
+            "description": "Practice using fetch requests to build an employee directory.",
+            "technologies": ["HTML", "CSS", "JavaScript", "JQuery", "Random User API"],
+            "live_link": "https://dani-gonzo.github.io/techdegree-project5/",
+            "github_link": "https://github.com/Dani-Gonzo/techdegree-project5",
+            "image_urls": ["/images/project5Landing.jpg", "/images/project5Addtl.jpg", "/images/project5Addtl2.jpg"]
+        },
+        {
+            "id": 5,
+            "project_name": "Four In A Row Game",
+            "description": "Draws up a four-in-a-row gameboard in the browser and allows the user to move and drop the game pieces. Switches between player 1 and player 2 via changing the game piece color.",
+            "technologies": ["HTML", "CSS", "JavaScript", "JQuery"],
+            "live_link": "https://dani-gonzo.github.io/four-in-a-row/",
+            "github_link": "https://github.com/Dani-Gonzo/four-in-a-row",
+            "image_urls": ["/images/projectGameLanding.jpg", "/images/projectGameAddtl.jpg", "/images/projectGameAddtl2.jpg"]
+        }
+    ]
+}
