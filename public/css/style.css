@@ -22,16 +22,6 @@ h1,h2,h3,h4,h5,p{
     color: #666;
   }
 
-/* added style for error message */
-.error {
-  display: block;
-  width: 100%;
-  max-width: 800px;
-  margin: auto;
-  padding-top: 5px;
-  padding-bottom: 50px;
-}
-
 .round{
   border-radius: 5px;
 }
@@ -62,7 +52,8 @@ a:hover{
   margin-bottom: 1rem;
   border: solid 4px #fefefe;
   border-radius: 0;
-  box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.2);
+  /* changed box shadow so it pops a bit more */
+  box-shadow: 5px 5px 4px 1px rgba(10, 10, 10, 0.2);
   line-height: 0;
 }
 
@@ -81,7 +72,8 @@ a:hover{
   .portfolio-me a{
     font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: 600;
-    color: #555;
+    /* changed font color to be more visible */
+    color: #999;
     font-size: 13px;
     letter-spacing: 2.5px;
     -webkit-text-transform: uppercase;
@@ -89,7 +81,8 @@ a:hover{
   }
 
   .portfolio-me a:hover{
-    color: #999;
+    /* changed hover color to be white */
+    color: #FFF;
   }
 
 .portfolio-breadcrumb{
@@ -101,7 +94,8 @@ a:hover{
  .portfolio-breadcrumb a{
    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
    font-weight: 600;
-   font-size: 13px;
+   /* increased font size slightly */
+   font-size: 14px;
    letter-spacing: 2.5px;
    -webkit-text-transform: uppercase;
    text-transform: uppercase;
@@ -151,10 +145,60 @@ a:hover{
 }
 
 .portfolio-project li{
-  font-size: 13px;
+  /* increased font size slightly */
+  font-size: 14px;
   color: #444;
 }
 
 .portfolio-bio{
     line-height: 25px;
+}
+
+/* EXTRA CREDIT */
+
+/* added style for error message */
+.error {
+  display: block;
+  width: 100%;
+  max-width: 800px;
+  margin: auto;
+  padding-top: 5px;
+  padding-bottom: 50px;
+}
+
+body {
+  background-color: #bef4f2;
+}
+
+.project-tile {
+  animation-name: fadeUp;
+  animation-duration: 1s;
+  animation-fill-mode: backwards;
+}
+.project-tile:nth-child(2) {
+  animation-delay: .3s;
+}
+.project-tile:nth-child(3) {
+  animation-delay: .6s;
+}
+.project-tile:nth-child(4) {
+  animation-delay: .9s;
+}
+.project-tile:nth-child(5) {
+  animation-delay: 1.2s;
+}
+.project-tile:nth-child(6) {
+  animation-delay: 1.5s;
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate(0px);
+  }
 }
