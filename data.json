@@ -7,7 +7,8 @@
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://dani-gonzo.github.io/techdegree-project1/",
             "github_link": "https://github.com/Dani-Gonzo/techdegree-project1",
-            "image_urls": ["/images/project1Landing.jpg", "/images/project1Addtl.jpg", "/images/project1Addtl2.jpg"]
+            "landing_image": "project1Landing.jpg",
+            "image_urls": ["project1Addtl.jpg", "project1Addtl2.jpg"]
         },
         {
             "id": 1,
@@ -16,7 +17,8 @@
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://dani-gonzo.github.io/techdegree-project2/",
             "github_link": "https://github.com/Dani-Gonzo/techdegree-project2",
-            "image_urls": ["/images/project2Landing.jpg", "/images/project2Addtl.jpg", "/images/project2Addtl2.jpg"]
+            "landing_image": "project2Landing.jpg",
+            "image_urls": ["project2Addtl.jpg", "project2Addtl2.jpg"]
         },
         {
             "id": 2,
@@ -25,7 +27,8 @@
             "technologies": ["HTML", "CSS", "JavaScript", "JQuery"],
             "live_link": "https://dani-gonzo.github.io/techdegree-project3/",
             "github_link": "https://github.com/Dani-Gonzo/techdegree-project3",
-            "image_urls": ["/images/project3Landing.jpg", "/images/project3Addtl.jpg", "/images/project3Addtl2.jpg", "/images/project3Addtl3.jpg"]
+            "landing_image": "project3Landing.jpg",
+            "image_urls": ["project3Addtl.jpg", "project3Addtl2.jpg", "project3Addtl3.jpg"]
         },
         {
             "id": 3,
@@ -34,7 +37,8 @@
             "technologies": ["HTML", "CSS", "JavaScript", "JQuery"],
             "live_link": "https://dani-gonzo.github.io/techdegree-project4/",
             "github_link": "https://github.com/Dani-Gonzo/techdegree-project4",
-            "image_urls": ["/images/project4Landing.jpg", "/images/project4Addtl.jpg", "/images/project4Addtl2.jpg", "/images/project4Addtl3.jpg"]
+            "landing_image": "project4Landing.jpg",
+            "image_urls": ["project4Addtl.jpg", "project4Addtl2.jpg", "project4Addtl3.jpg"]
         },
         {
             "id": 4,
@@ -43,7 +47,8 @@
             "technologies": ["HTML", "CSS", "JavaScript", "JQuery", "Random User API"],
             "live_link": "https://dani-gonzo.github.io/techdegree-project5/",
             "github_link": "https://github.com/Dani-Gonzo/techdegree-project5",
-            "image_urls": ["/images/project5Landing.jpg", "/images/project5Addtl.jpg", "/images/project5Addtl2.jpg"]
+            "landing_image": "project5Landing.jpg",
+            "image_urls": ["project5Addtl.jpg", "project5Addtl2.jpg"]
         },
         {
             "id": 5,
@@ -52,7 +57,8 @@
             "technologies": ["HTML", "CSS", "JavaScript", "JQuery"],
             "live_link": "https://dani-gonzo.github.io/four-in-a-row/",
             "github_link": "https://github.com/Dani-Gonzo/four-in-a-row",
-            "image_urls": ["/images/projectGameLanding.jpg", "/images/projectGameAddtl.jpg", "/images/projectGameAddtl2.jpg"]
+            "landing_image": "projectGameLanding.jpg",
+            "image_urls": ["projectGameAddtl.jpg", "projectGameAddtl2.jpg"]
         }
     ]
 }
