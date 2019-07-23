@@ -21,22 +21,34 @@ router.get('/about', (req, res, next) => {
     res.render('about');
 });
 
-// Projects
-router.get('/project/:id', (req, res) => {
-    // Store request project page id value...
-    const {id} = req.params;
-    // ...and use it to pass the corresponding project object information for the template to display
-    res.render("project", projects[id]);
-});
-
-// ERROR HANDLING
-// Non-existent path request creates a 404 error
-app.use((req, res, next) => {
+// Global error handler function
+function notFoundHandler(next) {
     const err = new Error("Not Found");
     err.status = 404;
     // Logs error to the console
     console.log("Sorry, we couldn't find the webpage you were looking for :( Error code:", err.status);
     next(err);
+}
+
+// Projects
+router.get('/project/:id', (req, res, next) => {
+    // Store request project page id value...
+    const {id} = req.params;
+
+    if (id && id < projects.length) {
+       // ...and use it to pass the corresponding project object information for the template to display
+       res.render("project", projects[id]); 
+    }
+    else {
+        // If project id doesn't exist, show 404 error page
+        notFoundHandler(next);
+    }
+});
+
+// ERROR HANDLING
+// Non-existent path request creates a 404 error
+app.use((req, res, next) => {
+    notFoundHandler(next);
 });
 
 app.use((err, req, res, next) => {
