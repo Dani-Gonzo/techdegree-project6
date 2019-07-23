@@ -7,10 +7,10 @@ Portfolio showcase of past projects served using static node and express.
 Install the dependencies with `npm install`. Run project with `npm start`.
 
 ## Dependencies
-JQuery
-Pug
-Express
-Node.js v10.16.0
+- JQuery
+- Pug
+- Express
+- Node.js v10.16.0
 
 ## Styling Personalization
 "Customize the style" extra credit
